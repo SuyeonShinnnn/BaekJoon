@@ -6,8 +6,8 @@ int main()
 
     scanf("%d %d", &h, &m);
 
-    if(m>=45)
-        m-=m;
+    if(m>=45&&m<=59)
+        m-=45;
     else
     {
         if(h==0)
