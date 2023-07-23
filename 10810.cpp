@@ -6,7 +6,7 @@ int main()
     int n, m;
     cin >> n >> m;
 
-    int* basket = new int[n+1];
+    int* basket = new int[n];
 
     for(int i=0; i<m; i++)
     {
